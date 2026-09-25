@@ -1,0 +1,64 @@
+h1{   font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #FCECD8;}
+.nadpis{
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: #6E3511;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;
+  padding: 0px;
+}
+h1{margin-left: 3%;}
+h2{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+}
+footer{
+    background-color: #FCECD8;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    position: relative;
+margin: 0;
+padding-left: 2%;
+padding-right: 2%;
+background-color:#FCECD8;
+text-decoration: none;
+left: 2%;
+color: black;
+}
+.buttons{
+    flex-direction: row;
+    position:absolute;
+    top: 12%;
+    left: 0%;
+    right: 0%;
+    background-color: #6E3511;
+    width: 100%;    
+}
+.benjamin{
+    position: absolute;
+    display: block;
+    top: 14.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #91AC67;
+}
+h3{   font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #FCECD8;
+    position: absolute;
+    top: 30%;
+    left: 7.5%;}
