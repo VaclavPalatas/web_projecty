@@ -15,21 +15,30 @@ h1{   font-family: "Charmonman", cursive;
 }
 h1{margin-left: 3%;}
 h2{
-   flex-direction: row;
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: #204927;
+  left: 0%;
+  color: #FCECD8;
+    margin: 10px;
+
 }
 footer{
-    background-color: #FCECD8;
+  display: grid;
+    background-color: #204927;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
+    padding-top: 0%;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #FCECD8;
+    padding-bottom: 2%;
 }
-a{
+.buttons a{
     position: relative;
-margin: 0;
+margin: 0;  
 padding-left: 2%;
 padding-right: 2%;
 background-color:#FCECD8;
@@ -38,13 +47,23 @@ left: 2%;
 color: black;
 }
 .buttons{
+  display:flex;
     flex-direction: row;
-    position:absolute;
-    top: 12%;
+    position:relative;
+    top: 5em;
     left: 0%;
     right: 0%;
     background-color: #6E3511;
     width: 100%;    
+}
+.L{
+  display: flex;
+  flex-direction: row;
+  padding-left:  3.5% ;
+}
+.tlacitka{
+  display: flex;
+  flex-direction: row;
 }
 .benjamin{
     position: absolute;
@@ -52,7 +71,7 @@ color: black;
     top: 14.5%;
     bottom: 0;
     left: 0;
-    right: 0;
+    right:0;
     background-color: #91AC67;
 }
 h3{   font-family: "Charmonman", cursive;
@@ -60,5 +79,105 @@ h3{   font-family: "Charmonman", cursive;
   font-style: normal;
   color: #FCECD8;
     position: absolute;
-    top: 30%;
-    left: 7.5%;}
+    top: 20%;
+    left: 2%;}
+
+.hover-big a { 
+  display: none;
+  position: relative;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  width: 100%;
+  background-color: #6E3511;
+  }
+.L:hover .hover-big a{
+  display: flex;
+  z-index: 100000;
+  flex-direction: column;
+  background-color: #FCECD8;
+}
+.dokument{
+  position: absolute;
+  left: 10%;
+  background-color: #204927;
+      place-items: center;
+    display: grid;
+}
+.dokument a{
+  text-decoration: none;
+color: #FCECD8;
+}
+.kontakt{
+    background-color: #204927;
+    display: grid;
+    place-items: center;
+}
+.kontakt a{
+text-decoration: none;
+color: #FCECD8;
+}
+.social{
+  position: absolute;
+  right: 10%;
+    background-color: #204927;
+    place-items: center;
+    display: grid;
+}
+.social a{
+text-decoration: none;
+color: #FCECD8;
+}
+.stranky{
+  display: grid;
+  position: absolute;
+  top: 15%;
+  right:0%;
+  bottom: 0%;
+  background-color: #FCECD8;
+  padding-left: 3%;
+  padding-right:3% ;
+  flex-direction: column;
+  padding-top:3% ;
+  padding-bottom: 20%;
+}
+h4{
+  color: black;
+  font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.stranky a{
+    text-decoration: none;
+    color: #6E3511;
+}
+@media (max-width: 768px) {
+  .stranky{
+  display: grid;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  top:50%;
+  background-color: #FCECD8;
+  padding-left: 3%;
+  padding-right:3% ;
+  flex-direction: row;
+  padding-top:3% ;
+  padding-bottom: 20%;
+}
+h4{
+  color: black;
+  font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.stranky a{
+    text-decoration: none;
+    color: #6E3511;}
+.L{
+  display: flex;
+  flex-direction: row;
+  padding-left:  8% ;
+}
+}
